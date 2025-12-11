@@ -1,27 +1,58 @@
-# Compiled class file
+### Android/Kotlin Standard
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.dex
+*.so
+*.o
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+*.jks
+*.keystore
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Gradle files
+.gradle
+/build
+/out
+/captures
 
-# Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
-.kotlin/
+# Idea/IntelliJ files
+.idea/
+.idea/libraries/
+.idea/caches/
+*.iml
+*.iws
+*.ipr
+/gradle/wrapper/gradle-wrapper.properties.backup
+
+# Local configuration files
+local.properties
+.DS_Store
+Thumbs.db
+
+# Kotlin specific
+*.kts.enc
+
+# Other files
+crashlytics-build.properties
+
+### IDE Specific (Optional but Recommended)
+# VS Code
+.vscode/
+
+### Generated files by Android Studio
+app/build/
+*/build/
+
+### Secrets and Sensitive Files
+# NOTE: This is the file you specifically asked to skip. 
+# It contains environment-specific configuration and API keys.
+**/google-services.json
+
+# If using NDK
+/obj
+/gen
+
+# User defined build files (like signing config)
+*.pro
